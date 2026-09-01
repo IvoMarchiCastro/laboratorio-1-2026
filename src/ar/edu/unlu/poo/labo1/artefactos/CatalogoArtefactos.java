@@ -2,23 +2,18 @@ package ar.edu.unlu.poo.labo1.artefactos;
 
 import ar.edu.unlu.poo.labo1.libreria.Libro;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
+
 
 public class CatalogoArtefactos {
+    private Set<Artefacto> misArtefactos;
     public CatalogoArtefactos() {
-        List <Artefacto> misArtefactos = new ArrayList<>();
+        Set<Artefacto> misArtefactos = new HashSet<>();
     }
     public void agregarArtefacto(Artefacto artefacto){
-        for (Artefacto miArtefacto: misArtefactos){
-            if (miArtefacto.equals(artefacto)){
-
-            }
-        }
-        if (artefacto.equals)
-        misArtefactos.add(Artefacto artefacto);
+        misArtefactos.add(artefacto);
     }
+
 
 public Set obtenerArtefactosUnicos(){
 

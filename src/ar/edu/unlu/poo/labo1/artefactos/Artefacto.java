@@ -19,7 +19,7 @@ public class Artefacto {
         return  this.nombre;
     }
 
-    public String getPoder(){
+    public int getPoder(){
         return  this.poder;
     }
     public String getTipo(){
@@ -29,7 +29,7 @@ public class Artefacto {
     @Override
     public boolean equals(Object o){
         if (this == o){return true;}
-        if(o == null || o.getClass() != getClass()){return false};
+        if(o == null || o.getClass() != getClass()){return false;}
         Artefacto Artefacto = (Artefacto) o;
         return Objects.equals(nombre,Artefacto.nombre);
     }
