@@ -16,7 +16,8 @@ public class CatalogoArtefactos {
 
 
 public Set obtenerArtefactosUnicos(){
-
+    Set<Artefacto> SetDup = this.misArtefactos;
+    return SetDup;
 }
 
 
