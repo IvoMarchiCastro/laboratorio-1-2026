@@ -15,6 +15,17 @@ public class Artefacto {
         this.tipo=atipo;
     }
 
+    public String getNombre(){
+        return  this.nombre;
+    }
+
+    public String getPoder(){
+        return  this.poder;
+    }
+    public String getTipo(){
+        return  this.tipo;
+    }
+
     @Override
     public boolean equals(Object o){
         if (this == o){return true;}
